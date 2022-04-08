@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+    background-image: url(../img/sylveon.jpg);
+    background-position: center;
+    
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+   margin: 40px 250px;
+   background-color: rgb(238, 207, 212);
+   border-radius: 50px;
+   border: 1px solid black;
+    
+}
+#b1{
+margin: 30px auto;
+height: 28pt;
+width: 42%;
+font-size: 18pt;
+background-color: purple;
+border-radius: 30px;
+border: 2px solid black;
+color: white;
+font-weight: bold;
+cursor: pointer;
+
+
+}
+label{
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1{
+    text-shadow: 3px 5px purple;
+    margin-left: 50px;
+    font-size: 30pt;
+    
+}
+input{
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 30px;
+    border-radius: 20px 10px 30px 10px;
+    border-color: purple;
+    text-align: center;
+    
+}
+#b1:hover{
+    background-color: rgb(255, 15, 15);
+    transition: width 0.5s;
+    opacity: 0.7;
+}
+img{
+  margin-left: 15px;
+  margin-top: 30px;
+  
+}
+
